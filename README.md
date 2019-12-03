@@ -2,26 +2,32 @@
 <html lang="en">
 
 <head>
+ <meta charset="UTF-8">
+    <title>The world of Programming</title>
+   
+
 
     <style>
         body {
             background-color: darksalmon;
-            background-image: image(images.jpg);
+            background-size: cover;
+            background-image: url(IT1.png);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center center;
+            
         }
 
         h1 {
-            color: blueviolet;
-        }
-
-        h1 {
-            color: darkblue;
-            font-size: 4.em;
+            color: aliceblue;
+            font-size: 5.em;
             font-style: oblique;
+            
         }
 
         p {
-            color: blueviolet;
-            font-size: 2em;
+            color: whitesmoke;
+            font-size: 3em;
             font-style: italic;
         }
 
@@ -38,21 +44,27 @@
         img:hover {
             filter: grayscale(0);
             transform: scale(1.05) rotate(3deg);
-            box-shadow: 5px 5px 15px #333;
+            box-shadow: 5px 6px 15px #333;
         }
 
         article {
             background-color: rgba(255, 255, 255, 0.4);
-            width: 500px;
+            width: 400px;
             height: 500px;
-            margin: auto 0 auto;
+            margin: 70px auto 0 auto;
             padding: 20px;
+        }
+        img {
+            
+            width: 400px;
+            height: 300px;
+            padding: 136;
         }
 
     </style>
-    <meta charset="UTF-8">
-    <title>The world of Programming</title>
-</head>
+    
+    </head>
+   
 
 <body>
     <h1>Vielen Dank!</h1>
@@ -63,8 +75,9 @@
         Adnan Ajjan Alhadid
     </p>
     <img title="Die Welt der Programmierung " src="programmierer-am-schreibtisch.png" alt="">
-    <img title="Digital Career Institute" src="images.jpg" alt="">
+  
     
     </body> 
     
     </html>
+
